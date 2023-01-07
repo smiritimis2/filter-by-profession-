@@ -10,7 +10,7 @@ function PrintDeveloperswithMap() {
   //Write your code here
   
   arr.map(item=>{if(item.profession==="developer")console.log(item);})
-   // console.log(newarr);
+   
 
 }
 
