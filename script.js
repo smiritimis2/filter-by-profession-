@@ -9,8 +9,8 @@ let arr = [
 function PrintDeveloperswithMap() {
   //Write your code here
   
-  var newarr=arr.map(item=>{if(item.profession==="developer")return item;})
-    console.log(newarr);
+  arr.map(item=>{if(item.profession==="developer")console.log(item);})
+   // console.log(newarr);
 
 }
 
